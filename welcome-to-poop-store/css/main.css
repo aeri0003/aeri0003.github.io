@@ -1,0 +1,111 @@
+body {
+    font-family: Raleway;
+}
+
+header {
+    color:#ff4a44;
+    font-size: larger;
+}
+
+h2 {
+    font-style: italic;
+}
+
+main > h2 {
+    color: #ff8aa3;
+}
+
+.paragraph1 {
+    color:#69f2fa;
+}
+
+article > h2 {
+    color:#bea693
+}
+
+.paragraph2 {
+    color:#3e2900;
+}
+
+aside > h2 {
+    color:#6c7a7a;
+}
+
+.paragraph3 {
+    color:#ff8aa3
+}
+
+aside li:first-child {
+    color: #ff4a44;
+    background-color:#69f2fa
+}
+
+aside li:nth-child(2) {
+    color: #ff8aa3;
+    background-color: #3e2900;
+}
+
+aside li:nth-child(3) {
+    color: #69f2fa;
+    background-color: #6c7a7a;
+}
+
+aside li:nth-child(4) {
+    color: #6c7a7a;
+    background-color: #ff8aa3;
+}
+
+aside li:nth-child(5) {
+    background-color: #ff4a44;
+}
+
+button {
+    font-family: Raleway;
+}
+
+button:active {
+    color: #ff4a44;
+    text-transform: uppercase;
+}
+
+
+/* this is a css comment */
+
+/* use . for class */
+/* use # for id */
+
+a[href="http"] {
+    color:black;
+    font-weight: bold;
+    font-size: large;
+}
+
+a {
+    font-size: 1.2rem;
+}
+
+/* LVHA (love hate) */
+
+a:link {
+    color:black;
+}
+
+a:visited {
+    color:red;
+}
+
+a:hover {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:active {
+    background-color: greenyellow
+}
+
+
+footer p {
+    color: rgb(0, 183, 168);
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+}
