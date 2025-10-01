@@ -74,7 +74,7 @@ button:active {
 /* use . for class */
 /* use # for id */
 
-a[href="http"] {
+a[href="https"] {
     color:black;
     font-weight: bold;
     font-size: large;
