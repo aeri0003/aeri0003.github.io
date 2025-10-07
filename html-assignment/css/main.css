@@ -1,0 +1,15 @@
+body {
+ font-family: Arial, Helvetica, sans-serif; font-size: 18px;
+}
+
+header , footer {
+ background-color: blueviolet;
+}
+
+#site-title {
+ color: palevioletred;
+}
+
+.my-image {
+ box-shadow: 0px 0px 2px 1px black;
+}
