@@ -1,0 +1,104 @@
+
+/* CSS Document */
+
+/* makes sure no image anywhere on the page will overflow its container */
+img {
+	max-width: 100%; 
+}
+
+
+
+/* Container for main table */
+.maincontainer {
+ 	font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    width: 1000px;
+	    padding: 0;
+}
+
+
+/* Container for header image and text */
+.kermitcontainer {
+    position: relative;
+    text-align: center;
+    background-color: rgb(140, 238, 105);
+    padding: 0;
+}
+
+
+/* Container for content area */
+.contentcontainer {
+    text-align: center;
+    background-color: rgb(230, 255, 153);
+    padding: 5px;
+ }
+
+
+/* menu table cell padding */
+
+td {
+	padding: 5px;
+}
+
+
+
+	
+
+
+/* text styles */
+
+/* Centered text */
+.centeredtitle {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -10%);
+	   font-weight: bold;
+	font-size: 60px;
+	font-family: Arial;
+	color: white;
+} 
+
+/* menu text */
+.menu {
+   
+    width: 33.33%;
+         text-align: center;
+    font-size: 20px; /*  font size for content */
+    vertical-align: top;
+}
+
+/* Header style */
+h2 {
+  color: green;
+} 
+
+/* copyrite text */
+.copyrite {
+   
+            text-align: right;
+    font-size: 14px; /*  font size for copyright */
+    
+}
+
+
+/* Form styles  --------------------------    */
+
+
+/* box around the form */
+
+#contactform {
+	border: 1px solid;
+	padding: 15px;
+}
+
+
+/* Submit button style */
+
+input[type=submit] {
+  background-color: lemonchiffon;
+  border: 1px solid black;
+   padding: 8px 10px;
+ margin: 12px 2px; 
+
+}
